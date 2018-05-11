@@ -1,0 +1,18 @@
+{
+  "tasks": [
+    {
+      "id": "7836d2e34074a",
+      "text": "Test",
+      "isCompleted": false,
+      "priorityColor": "green",
+      "addedDate": 1525949672
+    },
+    {
+      "id": "ccb181a55606c",
+      "text": "Test",
+      "isCompleted": false,
+      "priorityColor": "green",
+      "addedDate": 1525949679
+    }
+  ]
+}
