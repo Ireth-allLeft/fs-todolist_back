@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const db = require('../db/db');
-const { validate } = require('jsonschema');
+//  const { validate } = require('jsonschema');
 
 const newTask = text => ({
   id: String(Math.random()
@@ -9,8 +9,7 @@ const newTask = text => ({
   text,
   isCompleted: false,
   priorityColor: 'green',
-  addedDate: Math.round(new Date()
-    .getTime() / 1000.0),
+  addedDate: Date.now(),
 });
 
 // router.use('/:id', (req, res, next) => {
